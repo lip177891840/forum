@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ThreeParams</servlet-name>
+    <servlet-class>form.ThreeParams</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowParameters</servlet-name>
+    <servlet-class>form.ShowParameters</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LotteryNumbers</servlet-name>
+    <servlet-class>form.LotteryNumbers</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WebClient</servlet-name>
+    <servlet-class>form.WebClient</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserIDs</servlet-name>
+    <servlet-class>form.UserIDs</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SubmitResume</servlet-name>
+    <servlet-class>form.SubmitResume</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletUtilities</servlet-name>
+    <servlet-class>form.ServletUtilities</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BadCodeServlet</servlet-name>
+    <servlet-class>form.BadCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>check</servlet-name>
+    <servlet-class>servlet.check</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowQuestoins</servlet-name>
+    <servlet-class>servlet.ShowQuestoins</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowQuestions</servlet-name>
+    <servlet-class>servlet.ShowQuestions</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>test</servlet-name>
+    <servlet-class>servlet.test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>t2</servlet-name>
+    <servlet-class>servlet.t2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>guoke</servlet-name>
+    <servlet-class>servlet.guoke</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showQuestion</servlet-name>
+    <servlet-class>servlet.showQuestion</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>servlet.login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>servlet.logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>register</servlet-name>
+    <servlet-class>servlet.register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addAnswer</servlet-name>
+    <servlet-class>servlet.addAnswer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showTopic</servlet-name>
+    <servlet-class>servlet.showTopic</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>personalPage</servlet-name>
+    <servlet-class>servlet.personalPage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userNameCheck</servlet-name>
+    <servlet-class>servlet.userNameCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Like_count</servlet-name>
+    <servlet-class>servlet.Like_count</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Add_like_count</servlet-name>
+    <servlet-class>servlet.Add_like_count</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>t2</servlet-name>
+    <url-pattern>/servlet/t2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guoke</servlet-name>
+    <url-pattern>/servlet/guoke</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showQuestion</servlet-name>
+    <url-pattern>/servlet/showQuestion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/servlet/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/servlet/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addAnswer</servlet-name>
+    <url-pattern>/servlet/addAnswer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showTopic</servlet-name>
+    <url-pattern>/servlet/showTopic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>personalPage</servlet-name>
+    <url-pattern>/servlet/personalPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userNameCheck</servlet-name>
+    <url-pattern>/servlet/userNameCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Like_count</servlet-name>
+    <url-pattern>/servlet/Like_count</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Add_like_count</servlet-name>
+    <url-pattern>/servlet/Add_like_count</url-pattern>
+  </servlet-mapping>
+
+</web-app>

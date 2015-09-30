@@ -1,0 +1,28 @@
+
+
+/*--showAllTopic.jsp 和showOneTopic.jsp页面的样式---*/
+.top_all_topic{
+	font-size:17px;
+	margin-top:20px;
+	padding-bottom:30px;
+	border-bottom:1px solid #ccc;
+}
+.all_topic{
+	height:150px;
+	
+	margin:30xp ;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+}
+.li_all_topic{
+	float:left;
+	display: block;  /*貌似也可以*/
+	list-style:none;/*去掉圆点*/
+	margin:10px 5px 10px 0;
+	padding:2px 5px;
+    border:1px solid #daecf5;
+    border-radius: 30px;
+    font-size:14px;
+}
+
+/* personalPage.jsp页面的样式 */

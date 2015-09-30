@@ -1,0 +1,49 @@
+/*-- 图片,点赞,评论 等共有的 --*/
+
+.img{
+    height: 38px;
+    width: 38px;
+    margin-top: 4px;
+}
+
+.like_count{
+    background: none repeat scroll 0 0 #aaa;
+    border: 0 none;
+    border-radius: 3px;
+    color: #698ebf;
+    cursor: pointer;
+    display: block;
+    font-weight: 500;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    width: 38px;
+    margin-bottom:10px;
+    margin-top:5px;
+}
+
+.action{
+    height: 24px;
+    background-color: #ccc
+    color: #999;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2.0
+}
+a{
+    color: #259;
+    text-decoration: none;
+}
+.action > a{
+    margin-right: 50px;
+}
+.addReplay{
+    cursor: pointer;
+}
+.addText{
+	background-color:#bbffaa;
+	height:90px;
+	dispaly:none;
+}

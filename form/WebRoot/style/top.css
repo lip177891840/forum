@@ -1,0 +1,164 @@
+/*--
+ 这个样式表是最顶部的样式表,
+ 这个样式表的最底部,是wrap的相应的值,
+ 所以说这个样式表实际上包含了 top && wrap
+
+
+  --*/
+.top{
+    background: -moz-linear-gradient(center top , #086ed5, #055db5) repeat-x scroll 0 0 #0767c8;
+    border-bottom: 1px solid #044e97;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.15) inset;
+    height: 45px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+.center_top{
+    clear: both;
+    height: inherit;
+    margin: 0 auto;
+    width: 960px;
+}
+
+#logo{
+    float: left;
+    background-image: url("/form/img/logo.png");
+    background-position: 0 8px;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: block;
+    height: 100%;
+    text-indent: -9999px;
+    width: 61px;
+}
+
+#search{
+    float: left;
+    margin: 6px 0 0 12px;
+    height: inherit;
+}
+#input{
+    background: none repeat scroll 0 0 #e1eaf2;
+    border: 1px solid #045bb3;
+    height: 17px;
+    width: 330px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 8px 6px 6px 6px;
+    margin: 1 5px 1 6px;
+}
+#button{
+    background: -moz-linear-gradient(center top , #0e7bef, #0d73da) repeat-x scroll 0 0 #0e78e7;
+    border: 1px solid #045bb2;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(255, 255, 255, 0.15) inset;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 32px;
+    line-height: 30px;
+    margin: 0 0 0 6px;
+    outline: 0 none;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    transition: all 0.2s ease-in-out 0s;
+    width: 66px;
+}
+#list_top{
+    float: left;
+    height: inherit;
+}
+#ul_top{
+    margin: 0;
+    height: inherit;
+
+}
+.li_top{
+    float: left;
+    height: inherit;
+    width: 50px;
+    color: #f2f4f5;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+}
+.ul_about{
+	margin-top:0px;
+	padding-left:0px;
+	background: -moz-linear-gradient(center top , #086ed5, #055db5) repeat-x scroll 0 0 #0767c8;
+}
+
+#about{
+    float: right;
+    width: 50px;
+    height: inherit;
+}
+
+.a_top{
+    display: block;
+    color: #f2f4f5;
+    text-decoration: none;
+    font-size: 15px;
+    width: 54px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+#personal{
+    height: 45px;
+    width: 54px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #f2f4f5;
+    text-align: center;
+    line-height: 45px;
+    display: block;
+}
+#personal_under{
+	margin-left:-1px;
+	height: 45px;
+    width: 54px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #f2f4f5;
+    text-align: center;
+    line-height: 45px;
+    display: block;
+}
+.about_me{
+	height: 45px;
+    width: 54px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #f2f4f5;
+    text-align: center;
+    line-height: 45px;
+	list-style:none;
+}
+.about_me_under{
+	border-bottom:0 solid #aaa;
+	height: 45px;
+    width: 54px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #f2f4f5;
+    text-align: center;
+    line-height: 45px;
+    display:  none;
+	list-style:none;
+}
+
+
+
+/*--这个比较特殊,是top下面总体的框框 --*/
+.wrap{
+    margin: 0 auto;
+    width: 965px;
+    margin-top: 60px;
+}

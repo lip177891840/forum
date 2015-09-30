@@ -1,0 +1,71 @@
+/* 
+	showQuestion.jsp页面的css
+ */
+ 
+.question_name{
+	border-bottom: 1px solid #ccc;
+	padding:20px 0 10px 0;
+}
+.question_describe{
+	border-bottom: 1px solid #ccc;
+	padding:15px 0;
+	font-size:13px;
+}
+
+.question_addOfUser{
+	padding-top:10px;
+	height:35px;
+	border:0
+}
+.question_addOfAnswer{
+	
+}
+textarea{
+	height:70px;
+	width:100%;
+	border:0;
+	font-size:14px;
+	resize:none
+}
+#question_addOfButton{
+	margin-top:10px;
+	float:right;
+	height:35px;
+	width:80px;
+	background: -moz-linear-gradient(center top , #1d7fe2, #0865c2) repeat-x scroll 0 0 #1575d5;
+    border: 1px solid #0d6eb8;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 0 rgba(0, 0, 0, 0.2);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    font-size:14px;
+}
+
+
+.answer{     /*--每一个回答的框框---*/
+    border-bottom: 1px solid #ccc;
+    height:200px;
+	padding:10px 0 10px 0;
+}
+.answer_left{      /*--点赞的框框 ---*/
+	float: left;
+    width: 6%;
+	
+}
+.answer_right{    
+
+	font-size: 13px;
+	line-height: 1.7;
+    float: right;
+    width: 92%;
+    word-wrap: break-word;
+    height: inherit;
+	
+}
+.content_answer{
+	height:80%;
+	background-color:$1aa;
+}
+.action_right_answer{
+	height:10%;
+}

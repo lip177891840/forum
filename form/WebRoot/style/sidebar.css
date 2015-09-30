@@ -1,0 +1,35 @@
+/*----右侧栏-----*/
+#sidebar{
+    float: left;
+    width: 27%;
+}
+
+.sidebar_top{
+    border-bottom: 1px solid #ddd
+}
+.sidebar_mid{
+    border-bottom: 1px solid #ddd
+}
+
+.a_right{
+    color: #666;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 0 0 3px;
+    position: relative;
+    text-decoration: none;
+    font-size: 13px;
+    word-wrap: break-word;
+}
+.li_sidebar{
+    text-decoration: none;
+
+
+    display: block;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}

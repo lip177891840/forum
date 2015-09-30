@@ -1,0 +1,64 @@
+/*-- guoke.jsp页面单独的样式表 --*/
+
+#newest{
+    padding: 10px 0 10px 0;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.feed{
+    height: 200px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.left_feed{
+    float: left;
+    width: 6%;
+}
+
+
+.right_feed{
+    font-size: 13px;
+
+    float: right;
+    width: 92%;
+    height: inherit;
+    background-color:
+}
+.topic_right_feed{
+    height: 16px;
+    
+}
+.question_right_feed{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.7;
+    height: 28px;
+    margin-top: 5px;
+
+}
+.zuozhe_right_feed{
+    height: 22px;
+    font-weight: 700;
+}
+.content_right_feed{
+    height: 106px;
+    color: #222;
+    font-size: 13px;
+
+}
+
+.newReplay{
+	display:none;
+	border-bottom: 1px solid #ccc;
+}
+.replay > textarea{
+	margin:0;
+	border:0;
+	margin-left:47px;
+	width:90%;
+	resize:none;
+	height:70px;
+}
+.submit{
+	margin-left:570px;
+}
